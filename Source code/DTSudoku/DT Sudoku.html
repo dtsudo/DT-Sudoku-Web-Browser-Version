@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    
+    <script src="DTSudokuBridgeMouseJavascript.js"></script>
+	
+    <script src="DTSudokuBridgeKeyboardJavascript.js"></script>
+	
+    <script src="DTSudokuBridgeImagesJavascript.js"></script>
+	
+    <!-- Requires DTSudokuBridgeImagesJavascript.js -->
+    <script src="DTSudokuBridgeDisplayJavascript.js"></script>
+	
+    <script src="bridge.js"></script>
+    <script src="bridge.meta.js"></script>
+    <script src="DTSudoku.js"></script>
+    <script src="DTSudoku.meta.js"></script>
+
+    <!-- Should be the last script since it might use any of the previous scripts -->
+    <script src="DTSudokuInitializerJavascript.js"></script>
+</head>
+<body>
+	<div>
+		<span id="dtSudokuFpsLabel"></span><span id="dtSudokuFps"></span>
+	</div>
+	<div style="text-align:center;">
+		<canvas id="dtSudokuCanvas" width="500" height="700"></canvas>
+	</div>
+</body>
+</html>
